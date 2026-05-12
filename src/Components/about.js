@@ -154,7 +154,7 @@ function About() {
               "ASP.NET Core",
               "PostgreSQL",
               "React",
-              "Flutter",
+              "Laravel",
               "Android",
               "REST APIs",
               "NLP",
