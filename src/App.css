@@ -606,3 +606,255 @@ body {
     padding: 20px;
   }
 }
+
+/* ================= DARK MODE ================= */
+
+.dark-toggle {
+  margin-left: auto;
+  margin-right: 30px;
+  border: none;
+  background: #5E38BD;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.dark-toggle:hover {
+  transform: scale(1.08);
+}
+
+/* BODY */
+
+body.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+/* NAVBAR */
+
+body.dark-mode .navbar {
+  background: #1E1E1E;
+}
+
+body.dark-mode .nav-links a {
+  color: #E0D7FF;
+}
+
+/* CARDS */
+
+body.dark-mode .about-card,
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .experience-card,
+body.dark-mode .contact-card {
+  background: #1F1F1F;
+  color: #EAEAEA;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+/* TEXT */
+
+body.dark-mode .subtitle,
+body.dark-mode .experience-description,
+body.dark-mode .project-content p,
+body.dark-mode .about-card,
+body.dark-mode .skill-card li,
+body.dark-mode .company-name,
+body.dark-mode .experience-list li {
+  color: #CCCCCC;
+}
+
+/* TITLES */
+
+body.dark-mode .main-name,
+body.dark-mode .about-title,
+body.dark-mode .projects-title,
+body.dark-mode .experience-title,
+body.dark-mode .project-content h3,
+body.dark-mode .skill-card h3,
+body.dark-mode .experience-card h3 {
+  color: #C9B3FF;
+}
+
+/* SECTION BACKGROUNDS */
+
+body.dark-mode .experience-section,
+body.dark-mode .skills-section,
+body.dark-mode .projects-section,
+body.dark-mode .about-section,
+body.dark-mode .contact-section {
+  background: #121212;
+}
+
+/* ================= CONTACT ================= */
+
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f5ff, #ffffff);
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 550px;
+
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+
+  border-radius: 28px;
+
+  padding: 45px 40px;
+
+  box-shadow:
+    0 20px 50px rgba(94, 56, 189, 0.12),
+    0 5px 15px rgba(0, 0, 0, 0.04);
+
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 40px;
+  color: #5E38BD;
+  margin-bottom: 35px;
+}
+
+/* INPUT GROUP */
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+  color: #6B5B95;
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 14px 16px;
+
+  border-radius: 14px;
+  border: 1px solid #ddd;
+
+  outline: none;
+
+  font-size: 15px;
+
+  transition: 0.3s;
+
+  background: white;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #8E6DD8;
+  box-shadow: 0 0 0 4px rgba(142, 109, 216, 0.12);
+}
+
+/* BUTTON */
+
+.send-btn {
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #5E38BD, #8E6DD8);
+
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(94, 56, 189, 0.2);
+}
+
+/* CONTACT INFO */
+
+.contact-info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 12px;
+  color: #6B5B95;
+}
+
+.contact-info a {
+  color: #5E38BD;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* ================= DARK MODE ================= */
+
+body.dark-mode .contact-section {
+  background: #121212;
+}
+
+body.dark-mode .contact-card {
+  background: #1E1E1E;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+body.dark-mode .contact-title {
+  color: #D8C7FF;
+}
+
+body.dark-mode .input-group label,
+body.dark-mode .contact-info p {
+  color: #D0D0D0;
+}
+
+body.dark-mode .input-group input,
+body.dark-mode .input-group textarea {
+  background: #2A2A2A;
+  border: 1px solid #3A3A3A;
+  color: white;
+}
+
+body.dark-mode .input-group input::placeholder,
+body.dark-mode .input-group textarea::placeholder {
+  color: #A0A0A0;
+}
+
+body.dark-mode .contact-info a {
+  color: #C9B3FF;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .contact-card {
+    padding: 35px 24px;
+  }
+
+  .contact-title {
+    font-size: 32px;
+  }
+}

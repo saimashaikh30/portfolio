@@ -13,7 +13,7 @@ function About() {
         alignItems: "center",
         padding: "40px 60px",
         background:
-          "linear-gradient(135deg, #faf8ff 0%, #ffffff 50%, #f6f1ff 100%)",
+          "transparent",
         position: "relative",
         overflow: "hidden",
       }}
@@ -24,7 +24,6 @@ function About() {
           position: "absolute",
           width: "300px",
           height: "300px",
-          background: "rgba(184, 167, 232, 0.25)",
           borderRadius: "50%",
           top: "-80px",
           left: "-80px",

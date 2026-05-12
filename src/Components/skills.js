@@ -54,7 +54,7 @@ function Skills() {
       style={{
         minHeight: "100vh",
         padding: "80px 40px",
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "transparent",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
