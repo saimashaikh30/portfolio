@@ -13,7 +13,7 @@ function Home() {
       alignItems: "center",
       textAlign: "center",
       padding: "20px",
-      backgroundColor: "#8743c0ff"
+      backgroundColor: "#FFFFFF"
     }}
      initial={{ scale: 0 }}             
      animate={{ scale: [1.2, 0.95, 1] }} 
@@ -37,7 +37,7 @@ function Home() {
         fontWeight: 700,
         marginTop:0
       }}>
-        Saima Rafik Shaikh
+        Saima Shaikh
       </h1>
 
       <h2 style={{
