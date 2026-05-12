@@ -13,7 +13,7 @@ function Home() {
       alignItems: "center",
       textAlign: "center",
       padding: "20px",
-      backgroundColor: "#FFFFFF"
+      backgroundColor: "#8743c0ff"
     }}
      initial={{ scale: 0 }}             
      animate={{ scale: [1.2, 0.95, 1] }} 
