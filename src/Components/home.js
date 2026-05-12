@@ -37,7 +37,7 @@ function Home() {
         fontWeight: 700,
         marginTop:0
       }}>
-        Saima Shaikh
+        Saima Rafik Shaikh
       </h1>
 
       <h2 style={{
