@@ -86,7 +86,7 @@ function Skills() {
           gap: "18px",
           width: "100%",
           maxWidth: "1600px",
-          flexWrap: "nowrap",
+          flexWrap: "wrap",
         }}
       >
         {Object.entries(skillCategories).map(
@@ -106,7 +106,8 @@ function Skills() {
               }}
               style={{
                 flex: 1,
-                minWidth: "220px",
+                minWidth: "240px",
+                maxWidth: "260px",
                 background: "#F4F1FA",
                 borderRadius: "22px",
                 padding: "24px",
