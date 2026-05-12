@@ -24,7 +24,6 @@ function Home() {
         fontSize: 22,
         marginBottom: 6,
         fontStyle: "italic",
-        marginBottom:0
       }}
          
       >
